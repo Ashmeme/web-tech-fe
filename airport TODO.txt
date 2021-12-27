@@ -1,0 +1,20 @@
+Design ui
+Departure/arrival table
+login
+buying tickets
+
+For the core of your website use all
+important HTML Elements which
+we’ve covered in the lectures:
+h1-h6, br, hr, p, a, img, ul, ol, div,
+table, forms, html entities, em,
+strong.
+Don’t forget about their Attributes.
+
+Use External CSS.
+- Use CSS Selectors: tags, classes,
+ids.
+- Use paddings, borders, margins;
+- Use CSS Position property, CSS
+Display property.
+- Use CSS Float and Clear.
