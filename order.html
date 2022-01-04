@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="index.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625242328_46-kartinkin-com-p-fon-aeroport-krasivie-foni-55.jpg);
+        color: aliceblue;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #Formregister{
+        width:75%;
+        background: #0080ff;
+        text-align: left;
+        font-size: 20px;
+        margin: auto;
+        padding: 20px;
+    }
+    #Ticketmaker{
+
+        width: 300px;
+        right: 0px;
+        background: #fdb4b4;
+        text-align: left;
+        border: 2px solid black;
+        font-size: 20px;
+        margin: right   ;
+        padding: 20px;
+        
+        
+    }
+    </style>
+<body>
+    <meta charset="utf-8">
+    <nav class="top-menu">
+            <ul class="menu-main">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order ticket</a></li>
+                <li><a href="register.html">Online register</a></li>
+                <li><a href="route.html">Aircraft route</a></li>
+            </ul>
+    </nav>
+    <div id="Formregister">
+            <label for="Flights">Choose flight:</label>
+            <select id="Flights" name="Flights">
+            
+            <option selected></option>
+            <option value="Russia">Россия</option>
+            <option value="Ukraine">Украина</option>
+            <option value="Belarus">Беларусь</option>
+            <option value="china">Китай</option>
+            </select><br><br><br><br>
+    <div id="Ticketmaker">
+        <form action="order2.html">
+            Email address:<br>
+            <input type="email" name="email"><br>
+            Your first name:<br>
+            <input type="text" name="firstname"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+    
+</body>
+</html>
