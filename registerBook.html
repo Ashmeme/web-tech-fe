@@ -17,6 +17,14 @@
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    #Formregister{
+        background-color: dark;
+        text-align: center;
+        font-size: 20px;
+        margin: 120px;
+        padding: 20px;
+        left: 190px;
+    }
     </style>
 <body>
     <nav class="navbar fixed-top justify-content-center navbar-expand-sm bg-primary navbar-dark">
@@ -31,18 +39,25 @@
         <h1>Online Register</h1>
         <p>Booking a place to travel in the future</p>
     </div>
-    <br><br>
-    <div class="container p-4 mt-5 bg-dark">
+    <div class="container mt-5 bg-dark">
         <div class="row">
-            <div class="col-sm-6">
-                <h3>First choice</h3>
-                <p>A choice for those who want to book seats for a flight in the future</p>
-                <a href="registerBook.html" class="btn btn-success">Booking</a>
+            <div class="col-sm-4">
+                <h3>Registration</h3>
+                <p>- Check-in before check-in at the airport</p>
+                <p>- Forget about queues at the airport</p>
+                <p>- No need to arrive in a few hours</p>
             </div>
-            <div class="col-sm-6">
-                <h3>Second choice</h3>
-                <p>A choice for those who have already booked seats</p>
-                <a href="registerCheck.html" class="btn btn-success">Check</a>
+            <div class="col-sm-6" id="Formregister">
+                <form action="/action_page.php">
+                    Email address:<br>
+                    <input type="email" name="email"><br>
+                    Your first name:<br>
+                    <input type="text" name="firstname"><br>
+                    Password:<br>
+                    <input type="password" name="password"><br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
