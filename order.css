@@ -1,0 +1,53 @@
+body{
+    background-image: url(media/travel-5219496_1280.webp);
+    color: aliceblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Formregister{
+    width:75%;
+    background: #0080ff;
+    text-align: left;
+    font-size: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.main{
+    display: grid;
+    justify-content: center;
+}
+
+#order{
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    background-color: #0080ff;
+    width: 900px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#form-flights input{
+    width: 150px;
+}
+#form-flights span{
+    display: inline-block;
+}
+#form-flights select{
+    width: 150px;
+}
+#form-flights button{
+    width: 100px;
+   margin-bottom: 5px;
+}
