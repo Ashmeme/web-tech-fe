@@ -1,0 +1,150 @@
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Patua One', cursive;
+    color: 000;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*Part 1*/
+.header{
+    background: url(media/83d1b3f34585f61435a94d41483f8a31.png) no-repeat center top / cover;
+    font-family: 'Patua One', cursive;
+}
+header a{
+    color: white;
+}
+.logo{
+    margin-right:100px;
+    height:5%;
+    width:15%;
+    color: white;
+}
+.menu{
+    display: flex;
+    padding-top: 50px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu li a:hover{
+    color: black;
+    transition: all 0.5s ease;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.or{
+    margin-top: 150px;
+    color: white;
+}
+.fbtw{
+    margin-top: 171px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.button{
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    padding: 0px;
+    background: #00F8F8;
+    box-shadow: 0px 4px 4px #053E3E;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-bottom: 199px;
+    color: black;
+}
+.button:hover{
+    color: white;
+    text-decoration: none;
+    background: rgba(6, 198, 198, 1);
+    transition: all 0.5s ease;
+}
+.imgplane{
+    position: absolute;
+/*    width: 1099px;*/
+    height: 508px;
+    margin-left:101px;
+    margin-top:292px;
+}
+sound { 
+  margin-left: 35rem; 
+  margin-top: 8rem; 
+  -webkit-border-radius: 60; 
+  -moz-border-radius: 60; 
+  border-radius: 60px; 
+  font-family: Arial; 
+  color: #ffffff; 
+  font-size: 20px; 
+  background: #ffffff; 
+  padding: 10px 10px 10px 10px; 
+  text-decoration: none; 
+} 
+ 
+.sound:hover { 
+  background: #a8a8a8; 
+    background-image: -webkit-linear-gradient(top, #a8a8a8, #ffffff); 
+    background-image: -moz-linear-gradient(top, #a8a8a8, #ffffff); 
+    background-image: -ms-linear-gradient(top, #a8a8a8, #ffffff); 
+    background-image: -o-linear-gradient(top, #a8a8a8, #ffffff); 
+    background-image: linear-gradient(to bottom, #a8a8a8, #ffffff); 
+    text-decoration: none; 
+}
+/*Part 2*/
+.about{
+    font-family: 'Patua One', cursive;
+    background-color: white;
+}
+.adventiges{
+    padding-top: 50px;
+}
+.registration{
+    background-color: white;
+}
+.button_register{
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    padding: 0px;
+    background: #00F8F8;
+    box-shadow: 0px 4px 4px #053E3E;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 199px;
+    color: black;
+}
+.button_register:hover{
+    color: white;
+    text-decoration: none;
+    background: rgba(6, 198, 198, 1);
+    transition: all 0.5s ease;
+}
+/*Part 3*/
+.footer{
+    background-color: darkgray;
+}
+.footer_item{
+    padding-left: 270px;
+}

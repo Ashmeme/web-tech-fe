@@ -72,4 +72,18 @@
 .menu-main:after {content: none;}
 .menu-main a {display: block;}
 }
+<<<<<<< Updated upstream
 * {box-sizing: border-box; margin: 0;}
+=======
+* {box-sizing: border-box; margin: 0;}
+
+.image_preview_container {
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+.image_preview {
+  background-image: url("IMAGE LOCATION");
+}
+.body{
+    height:2000px;
+}
+>>>>>>> Stashed changes
